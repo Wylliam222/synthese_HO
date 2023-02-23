@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0px;
-    background-color: aliceblue;
+    background-color: aliceblue !important;
   }
   
   header {
@@ -10,12 +10,6 @@ body {
     align-items: center;
     text-align: center;
     background-color: lightblue; 
-  }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
   }
   
   nav ul {
@@ -43,9 +37,4 @@ body {
 
   a {
     text-decoration: none;
-    color: darkblue;
-  }
-
-  a:hover {
-    transform: scale(2);
   }
