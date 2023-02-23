@@ -5,37 +5,56 @@
     <meta charset="UTF-8">
     <title>Présentation de la planification du travail synthèse</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-        <h1>Présentation de la planification du travail synthèse</h1> 
-        <nav>
-            <ul>
-              <li><a href="index.html">Accueil</a></li>
-              <li><a href="besoins.html">Analyse des besoins</a></li>
-              <li><a href="concept.html">Présentation de l'hôtel</a></li>
-              <li><a href="echeancier.html">Présentation de l'échéancier</a></li>
-              <li><a href="techno.html">Présentation des choix technologiques</a></li>   
-              <li><a href="planif.html">Présentation de la planification du travail synthèse</a></li>                   
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#">Présentation de la planification du travail synthèse</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li>
+                <a class="nav-link" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ms-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu déroulant
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="besoins.html">Analyse des besoins</a></li>
+                  <li><a class="dropdown-item" href="concept.html">Présentation de l'hôtel</a></li>
+                  <li><a class="dropdown-item" href="echeancier.html">Présentation de l'échéancier</a></li>
+                  <li><a class="dropdown-item" href="techno.html">Présentation des choix technologiques</a></li>
+                </ul>
+              </li>
             </ul>
-          </nav>  
-    </header>
+          </div>
+        </div>
+    </nav>  
+    
     <main>
         <section>
-            <h2>Apport au travail synthèse de chacun des membres d’équipe</h2> 
-            <p><strong>Hugoc Laessens</strong> ses chargé de l'analyse des besoin.</p>
-            <br>
-            <p><strong>Nicolas</strong> ses chargé de la présentation des choix technologiques ainsi que de l'échéancier</p>
-            <br>
-            <p><strong>Wylliam Sénéchal</strong> ses chargé de la présentation du concept ainsi que la présentation de la planification du projet.</p>                    
+            <h2 class="mb-3">Apport au travail synthèse de chacun des membres d’équipe</h2> 
+            <p class="mb-3"><strong>Hugoc Laessens</strong> ses chargé de l'analyse des besoin.</p>
+
+            <p class="mb-3"><strong>Nicolas</strong> ses chargé de la présentation des choix technologiques ainsi que de l'échéancier</p>
+
+            <p class="mb-3"><strong>Wylliam Sénéchal</strong> ses chargé de la présentation du concept ainsi que la présentation de la planification du projet.</p>                    
         </section>                       
         <section>
-            <h2>Rétroaction globale sur le travail d’équipe (motivation, charge et problèmes)</h2>                        
+            <h2>Rétroaction globale sur le travail d’équipe (motivation, charge et problèmes)</h2>
+            
+            <p>Le projet ces très bien déroulé, nous avons rapidement déterminé quelles tâches nous serions attribués et ensuite nous nous sommes mis au travail, les charges étaient distribuées assez équitablement et si l'un d'entre nous finissait en avance il pouvait aider un coéquipier ou faire un peu de Css. Les problèmes rencontrées ont majoritairement été porté sur la compréhension du devis, mais après quelques questions et réflexion tous c'est bien déroulé.</p>
         </section>                       
         <section>
-            <h2 href="https://app.asana.com/0/1204016564595895/1204016578947684">Lien vers Asana</h2>
+            <a href="https://app.asana.com/0/1204016564595895/1204016578947684">Lien vers Asana</a>
         </section>                       
     </main>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </html>
