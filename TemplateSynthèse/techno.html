@@ -9,21 +9,72 @@
   <body>
     <header>
       <h1>Présentation des choix technologiques</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="besoins.html">Analyse des besoins</a></li>
-          <li><a href="concept.html">Présentation de l'hôtel</a></li>
-          <li><a href="echeancier.html">Présentation de l'échéancier</a></li>
-          <li>
-            <a href="techno.html">Présentation des choix technologiques</a>
-          </li>
-          <li>
-            <a href="planif.html"
-              >Présentation de la planification du travail synthèse</a
-            >
-          </li>
-        </ul>
+      <nav
+        class="navbar sticky-top navbar-expand-lg navbar navbar-dark bg-primary"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#">Accueil</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li>
+                <a class="nav-link" href="#">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle ms-3"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu déroulant
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="besoins.html"
+                      >Analyse des besoins</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="concept.html"
+                      >Présentation de l'hôtel</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="echeancier.html"
+                      >Présentation de l'échéancier</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="techno.html"
+                      >Présentation des choix technologiques</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="planif.html"
+                      >Présentation de la planification du travail synthèse</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
