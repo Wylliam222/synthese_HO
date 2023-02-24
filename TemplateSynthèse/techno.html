@@ -1,61 +1,142 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Présentation des choix technologiques</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
 
-<body>
-
-        <nav class="navbar sticky-top navbar-expand-lg navbar navbar-dark bg-primary">
-            <div class="container-fluid">
-              <a class="navbar-brand ms-5" href="#">Présentation des choix technologiques</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li>
-                    <a class="nav-link" href="index.html">Accueil</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle ms-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Menu déroulant
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="besoins.html">Analyse des besoins</a></li>
-                      <li><a class="dropdown-item" href="concept.html">Présentation de l'hôtel</a></li>
-                      <li><a class="dropdown-item" href="echeancier.html">Présentation de l'échéancier</a></li>
-                      <li><a class="dropdown-item" href="planif.html">Présentation de la planification du travail synthèse</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>  
-
+  <body>
+    <header>
+      <h1>Présentation des choix technologiques</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="besoins.html">Analyse des besoins</a></li>
+          <li><a href="concept.html">Présentation de l'hôtel</a></li>
+          <li><a href="echeancier.html">Présentation de l'échéancier</a></li>
+          <li>
+            <a href="techno.html">Présentation des choix technologiques</a>
+          </li>
+          <li>
+            <a href="planif.html"
+              >Présentation de la planification du travail synthèse</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
-        <section>
-            <h2>Choix des technologies de développement</h2>
-            <h2>Forces</h2>
-            <h2>Faiblesses</h2>
-        </section>
-        <section>
-            <h2>Choix et organisation des technologies de planification</h2>
-            <h2>Forces</h2>
-            <h2>Faiblesses</h2>
-            <h2>Organisation</h2>            
-        </section>
-        <section>
-            <h2>Choix et organisation des technologies de gestion</h2>
-            <h2>Forces</h2>
-            <h2>Faiblesses</h2>
-            <h2>Organisation</h2>         
-        </section>                
+      <section>
+        <h2>Choix des technologies de développement</h2>
+        <p><strong>Frontend:</strong> HTML, Vuejs, CSS</p>
+        <p><strong>Backend:</strong> Laravel, MySQL</p>
+        <h2>Forces</h2>
+        <p>
+          <strong>HTML</strong> est un langage de balisage simple qui est à la
+          base de la construction de sites Web. Il indique aux navigateurs
+          comment rendre les pages Web. Bien qu'il ne s'agisse pas de
+          programmation au sens traditionnel,
+        </p>
+        <p>
+          <strong>Vuejs</strong>vous permet également d'écrire les modèles comme
+          vous le souhaitez : en utilisant HTML, JS ou JSX (extension de syntaxe
+          JavaScript). En raison de ses composants et de sa légèreté, Vue peut
+          être utilisé dans presque tous les projets.
+        </p>
+        <p>
+          <strong>Laravel</strong> le langage a gagné en popularité ces derniers
+          temps en raison de sa simplicité et de son évolutivité. Il est l'un
+          des plus faciles à apprendre.
+        </p>
+        <h2>Faiblesses</h2>
+        <p>
+          <strong>HTML</strong> nécessite souvent un codage poussé et peut être
+          difficile à apprendre.
+        </p>
+        <p>
+          <strong>Laravel</strong> a des mises à jour régulières, ce qui est
+          excellent. Mais l'inconvénient est que les anciennes versions du
+          produit deviennent rapidement boguées. De plus, les développeurs Web
+          peuvent parfois rencontrer des difficultés lors de la mise à jour des
+          nouvelles versions du logiciel.
+        </p>
+        <p>
+          <strong>Vuejs</strong> bien que l'écosystème soit assez large et qu'il
+          existe tous les outils nécessaires pour commencer à développer avec
+          Vue, il n'est toujours pas aussi grand que React ou Angular. Pour être
+          plus précis, il suffit de comparer le nombre de plugins disponibles
+          pour React et Vue.js : la différence se compte par centaines.
+        </p>
+      </section>
+      <section>
+        <h2>Choix et organisation des technologies de planification</h2>
+        <p style="font-size: 30px"><strong>Asana</strong></p>
+        <h2>Forces</h2>
+        <p>
+          L'interface utilisateur d'Asana conduit finalement à une bien
+          meilleure expérience utilisateur. Il a été conçu avec soin et en tant
+          que tel, il est très intuitif.
+        </p>
+        <p>
+          Asana s'intègre à de nombreuses autres applications de gestion de
+          projet, telles que Google Drive, Microsoft Teams
+        </p>
+        La vue d'ensemble permet aux utilisateurs d'avoir sur toutes les tâches
+        est étendue. Il permet aux utilisateurs de hiérarchiser facilement les
+        tâches.
+        <h2>Faiblesses</h2>
+        <p>
+          Il ne dispose d'aucun moyen de suivre le temps. Les capacités de suivi
+          du temps sont communes à la plupart des options logicielles de gestion
+          de projet.
+        </p>
+        <p>
+          Les fonctionnalités d'attribution des tâches d'Asana sont ternes. Un
+          seul utilisateur peut être affecté à une tâche à la fois.
+        </p>
+        <h2>Organisation</h2>
+        <img src="./images/asana.png" />
+      </section>
+      <section>
+        <h2>Choix et organisation des technologies de gestion</h2>
+        <p style="font-size: 30px"><strong>Github</strong></p>
+        <h2>Forces</h2>
+        <p>
+          Il fournit un système de contrôle de version puissant et flexible basé
+          sur Git qui permet aux équipes de suivre les modifications apportées à
+          leur code au fil du temps, de collaborer sur le code avec d'autres et
+          de conserver un historique de leur travail.
+        </p>
+        <p>
+          Le système de demande d'extraction de GitHub (Pull request) permet aux
+          équipes d'examiner les modifications de code, de discuter des
+          suggestions et de fusionner les modifications dans un emplacement
+          central. Cela facilite la détection des bogues et garantit que la
+          qualité du code reste élevée.
+        </p>
+        <h2>Faiblesses</h2>
+        <p>
+          GitHub propose des référentiels privés sur les niveaux gratuits et
+          payants, mais même les référentiels privés ont leurs problèmes. Pour
+          la propriété intellectuelle de grande valeur, vous mettez tout cela
+          entre les mains de GitHub ainsi que de toute personne disposant d'une
+          connexion, ce qui, comme de nombreux sites, a déjà subi des failles de
+          sécurité et est constamment ciblé.
+        </p>
+        <p>
+          Il existe toujours une certaine insécurité et des risques dans le
+          logiciel GitHub. Cela est dû au fait qu'il est basé sur le cloud.
+          C'est pourquoi certains développeurs et clients ne font qu'aider à
+          préférer travailler sur leur propre sécurité interne.
+        </p>
+        <h2>Organisation</h2>
+        <p>
+          Flux de travail Git de développement basé sur le tronc (branche de
+          développement)
+        </p>
+        <img src="./images/github.png" />
+      </section>
     </main>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
 </html>
